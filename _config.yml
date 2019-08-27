@@ -1,0 +1,25 @@
+title:              NEUNG's Blog
+email:              neungyoung.kim@gmail.com
+description:        A Blog Theme by Start Bootstrap
+author:             NEUNG
+baseurl:            ""
+url:                "https://neung0.github.io"
+
+# Social Profiles
+#twitter_username:   SBootstrap
+github_username:    neung0
+#facebook_username:  StartBootstrap
+#linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+  remote_theme : BlackrockDigital/startbootstrap-clean-blog-jekyll
