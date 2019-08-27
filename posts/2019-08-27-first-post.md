@@ -1,7 +1,9 @@
 ---
-layout: page
-title: Posts
-background: '/img/bg-post.jpg'
+layout: post
+title: "FIrst Post"
+subtitle: "부제목"
+date: 2019-08-27 10:03:01
+background: '/PATH_TO_IMAGE'
 ---
 
 Post test
